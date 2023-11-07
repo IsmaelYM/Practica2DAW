@@ -1,0 +1,137 @@
+
+h1,
+h2,
+h3,
+section{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    padding: 5px;
+}
+
+a {
+    margin-left: 5px;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+}
+
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+    margin-top: 15px;
+}
+
+.carousel-item {
+    height: 32rem;
+}
+
+.carousel-item>img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+#bio {
+    background-image: url('../images/fondoBio.png');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border: 4px solid #000000;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+#fondoBio {
+    background-image: url('../images/fondoBio2.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    
+}
+
+
+img {
+    width: 80%;
+}
+
+#cuadros {
+    margin-top: 30px;
+    
+}
+
+.separador-grueso {
+    border: none;
+    height: 3px;
+    width: 80%;
+    background-color: #000;
+    margin: 20px auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 30px;
+}
+
+.contacto{
+    background-image: url('../images/fondoContacto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+div.contact-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e7d8c4;
+    border: 2px solid #b49b7f;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #888888;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #b49b7f;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #b49b7f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #906f52;
+}
+.text-white{
+    margin-bottom: 0;
+    
+}
